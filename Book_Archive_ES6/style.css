@@ -1,0 +1,139 @@
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+* {
+  font-weight: bold;
+  margin-left: 0.67em;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 200;
+  padding: 10px;
+  padding-bottom: 2px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 35px;
+}
+
+body {
+  background-color: rgb(1, 44, 88);
+  color: rgb(183, 235, 255);
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1px;
+  font-size: 18px;
+}
+
+input {
+  width: 500px;
+  height: 25px;
+  display: block;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+#submit-form {
+  cursor: pointer;
+  color: rgb(1, 44, 88);
+  background-color: rgb(183, 235, 255);
+  height: 40px;
+  margin: 0.67em;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 514px;
+  display: block;
+  border-style: solid;
+  border-radius: 3px;
+  padding: 6px;
+}
+
+div.book-display {
+  margin: 0.67em;
+  margin-left: 0.67em;
+  display: block;
+}
+
+hr {
+  margin: 0.67em;
+  margin-left: 0.67em;
+  display: block;
+  width: 516px;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  padding-bottom: 5px;
+  border-spacing: 2px;
+  font-size: 18px;
+}
+
+th {
+  padding-right: 160px;
+  text-decoration: underline;
+}
+
+tbody {
+  display: table table-row-group;
+  vertical-align: middle;
+  color: white;
+}
+
+input {
+  font-size: 15px;
+  border: 1px solid;
+  border-color: #d1d1d1;
+  width: 500px;
+}
+
+hr {
+  border: 1px solid;
+  border-color: #d1d1d1;
+  margin-left: 30px;
+  margin-top: 1px;
+}
+
+#success-alert {
+  color: white;
+  background-color: rgb(5, 185, 5);
+  margin: 0.67em;
+  margin-right: 300px;
+}
+
+#error-alert {
+  color: white;
+  background-color: red;
+  margin: 0.67em;
+  margin-right: 300px;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: rgb(255, 206, 190);
+  text-decoration: underline;
+}
+
+.cell {
+  padding: 5px;
+  font-weight: lighter;
+  border-width: 0px;
+  border-bottom: rgb(183, 235, 255);
+  border-style: solid;
+}
+
+table {
+  padding-bottom: 25px;
+  border: rgba(150, 255, 197, 0.766);
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+}
