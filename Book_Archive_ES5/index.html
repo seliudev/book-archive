@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book List</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div id="success-alert"></div>
+    <div id="error-alert"></div>
+
+    <h1>Add Book</h1>
+
+    <form action="">
+      <div>
+        <p><label for="Title">Title</label></p>
+        <input type="text" id="Title" placeholder="Enter book title" />
+      </div>
+
+      <div>
+        <p><label for="Author">Author</label></p>
+        <input type="text" id="Author" placeholder="Enter author name" />
+      </div>
+
+      <div>
+        <p><label for="isbn">ISBN#</label></p>
+        <input
+          type="text"
+          id="Isbn"
+          placeholder="Enter international standart book number"
+        />
+      </div>
+
+      <div class="button">
+        <input type="button" id="submit-form" value="SUBMIT" />
+      </div>
+    </form>
+
+    <table id="book-table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN</th>
+        </tr>
+      </thead>
+      <tbody id="book-table-body"></tbody>
+    </table>
+  </body>
+</html>
